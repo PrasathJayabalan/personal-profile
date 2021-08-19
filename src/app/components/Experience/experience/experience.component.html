@@ -1,0 +1,48 @@
+<div class="experience-container">
+  <div class="sub-experience-container">
+    <h3>Experience Summary</h3>
+    <ul>
+      <li>
+        <p>
+          Around 5+ years of professional experience as a Front End developer in software development with emphasis in design and development of web applications and Enterprise Applications.
+        </p>
+      </li>
+      <li>
+        <p>
+          Highly organized, motivated, and versatile with 3+ years of proficient programming experience in modern open-source front end frameworks Angular 6
+        </p>
+      </li>
+      <li>
+        <p>
+          Extensively worked as UI Developer in HTML5, CSS3, TS and Angular 8. Extensively worked as a Production Support Analyst in resolving job failures and in Ticket resolutions raised by Business users. Cohesive team worker, having strong analytical, problem solving and interpersonal skills
+        </p>
+      </li>
+      <li>
+        <p>
+          Endlessly curious to explore new trends in digital technologies and also inspired to utilize them
+        </p>
+      </li>
+      <li>
+        <p>
+          Key interests to produce well-crafted, extensible software applications with a focus on customer demands, user experience, accessibility, clean code, reusability, testing and the latest innovations
+        </p>
+      </li>
+    </ul>
+  </div>
+  <div class="sub-experience-container">
+    <div class="card mb-3" style="max-width: 540px;"*ngFor="let content of experienceArray">
+      <div class="row g-0 ">
+        <div class="col-md-4">
+          <img src= {{content.logo}} class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{content.companyName}}</h5>
+            <p class="card-text">{{content.project}}</p>
+            <p class="card-text"><small class="text-muted">{{content.projectDuration}}</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

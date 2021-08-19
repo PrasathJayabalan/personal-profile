@@ -1,0 +1,33 @@
+.experience-container{
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: unwrap;
+}
+
+.exp-card{
+  width: 700px;
+}
+
+.sub-experience-container{
+  padding: 30px;
+  border: 2px solid red;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 800px;
+  background-color: bisque;
+}
+.sub-experience-container ul li p{
+  font-weight:normal;
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  .experience-container{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
